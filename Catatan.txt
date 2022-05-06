@@ -8,4 +8,29 @@ Selesai 4-5-2022
 
 
 
-Dodumentasi
+Dokumentasi
+CSS Grid Terminology
+- Grid container 
+Element pembungkus grid, didefinisikan dengan menuliksan:
+> .container { 
+  display: grid;
+  }
+
+- Grid item
+Element-element yg berada (1 level) di dalam grid container
+
+- Grid line
+Garis horizontal (kolom) atau vertikal (baris) yg memisahkan grid
+menjadi beberapa bagian dan ditandai dengan angka
+
+- Grid cell
+Perpotongan / pertemuan antara baris dan kolom di dalam grid
+
+- Grid area
+Kumpulan lebih dari satu grid cell yg membentuk kotak
+
+- Grid track
+Ukuran / jarak antara 2 grid line, bisa horizontal (kolom) atau vertikal(baris)
+
+- Grid gap
+Jarak antara grid track / cell
